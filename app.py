@@ -21,12 +21,13 @@ class Log(db.Model):
 with app.app_context():
     db.create_all()
     
-    prueba1 = Log(texto='Mensaje de Prueba1')
-    prueba2 = Log(texto='Mensaje de Prueba2')
+    # Pruebas
+    # prueba1 = Log(texto='Mensaje de Prueba1')
+    # prueba2 = Log(texto='Mensaje de Prueba2')
     
-    db.session.add(prueba1)
-    db.session.add(prueba2)
-    db.session.commit()
+    # db.session.add(prueba1)
+    # db.session.add(prueba2)
+    # db.session.commit()
     
 #Funcion para ordenar los registros por fecha y hora
 
